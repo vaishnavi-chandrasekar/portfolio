@@ -1,38 +1,398 @@
-.App {
-  text-align: center;
+ #Email{
+  width: 50%;  
+}
+#name{
+  width: 50%;
+}
+#Contact{
+  width:50%;
+} 
+#message{
+  width: 50%;
+  height: 30%;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.img{
+  background:url("./images/tree.jpg");
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
 }
+#typewriter{
+  padding: 19%;
+  font-family: Roboto;
+  color: cornsilk;
+  font-size: 4em;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  
 }
+/* .topnav{
+  display:flex;
+  float: left; 
+  list-style-type: none;
+  
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+} */
+
+.list{
+  background-color:black;
+  color: ivory ;
+  position:fixed;
+  width: 100%;
+  height: 10%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+float: left;
+}
+#about{
+   margin-left: 5%;
+   display: flex;
+   font-size: larger;
+   margin-top: 1%;
+}
+#skills{
+  margin-left: 5%;
+  display: flex;
+  font-size: larger;
+  margin-top: 1%;
+
+}
+#projects{
+  margin-left: 5%;
+  display: flex;
+  font-size: larger;
+  margin-top: 1%;
+
+}
+#contact{
+  margin-left: 5%;
+  display: flex;
+  font-size: larger;
+  margin-top: 1%;
+
+}
+#li{
+  display: flex;
+  font-size: larger;
+  margin-top: 1%;
+  margin-left: 3%;
+
+}
+.info{
+color: black;
+
+ background-image: url("./images/black.jpg");
+ background-size: cover;
+ height: 100%;
+ width: 100%;
+ background-position: center;
+ background-repeat: no-repeat;
+ padding: 5%;
+
+}
+#H2{
+  color: ivory;
+  text-align: center;
+  
+}
+
+ #full{
+  background-color: rgb(18, 111, 128);
+  padding: 4% 10% 0 10%;
+}
+#card{
+  background-color: papayawhip ;
+  height:80%;
+  width: 80%;
+   padding:10%; 
+  font-size: larger;
+  margin: 0 10% 0 10%;
+
+
+} 
+#head{
+
+  padding: 10%;
+  
+} 
+#btn{
+ margin: 3% 0 0 0  ;
+}
+#font{
+  font-size: larger;
+padding: 2%;
+width: 50%;
+
+
+
+
+}
+#main{
+  background-color:white;
+  width: 50%;
+  height: 50%;
+  margin: 0 0 0 50%;
+  padding: 3%;
+  
+
+
+}
+#cvbtn{
+  background-color:rgb(226, 189, 141);
+  font-size: 1.5em;
+  margin-left:690%;
+  height: 60%;
+  margin-top: 15%;
+}
+#big{
+  background-color: white;
+  width: 80%;
+  height: 100%;
+  margin: 2% 8% 0 8% ;
+  padding: 4%;
+}
+/* #html{
+  width: 90%;
+  
+}
+#css{
+  width:90%;
+}
+#js{
+  width: 80%;
+}
+#react{
+  width: 80%;
+} */
+#image{
+  width: 60%;
+  height: 100%;
+  margin: 0 20% 0 0;
+  float: right;
+  padding: 4%;
+}
+#size{
+  font-size: larger;
+}
+#h4{
+  padding: 8%;
+  
+}
+#quote{
+  margin: 5% 0 0 0;
+}
+#skls{
+background-image: url("./images/sky.jpg");
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 5%;
+  margin: 1% 0 1% 0; 
+}
+#part{
+  /* background-image: url("./images/brick.jpg"); */
+  background-color: whitesmoke;
+  width: 80%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 5%;
+  color: black;
+  display: flex;
+  
+  margin: 0 10% 0 10%;
+
+}
+#part1{
+
+  width: 50%;
+}
+#part2{
+  
+  width: 50%;
+}
+.contain{
+  width: 80%;
+  background-color: white;
+  text-align: right;
+  margin: 2%;
+  border: 1px solid black;
+  border-radius: 10px;
+
+  
+  
+
+}
+h1{
+  text-align: center;
+  padding: 2%;
+  
+}
+#html{
+  width: 90%;
+  background-color: rgb(55, 196, 196);
+  border-radius: 10px;
+
+}
+#H3{
+  margin: 2%;
+}
+#css{
+  margin: 2%;
+}
+.css{
+  width: 90%;
+  background-color: rgb(55, 196, 196);
+  border-radius: 10px;
+}
+#js{
+  margin: 2%;
+}
+.js{
+  width: 80%;
+  background-color: rgb(55, 196, 196);
+  border-radius: 10px;
+
+}
+#react{
+  margin: 2%;
+}
+.react{
+  width: 70%;
+  background-color: rgb(55, 196, 196);
+  border-radius: 10px;
+
+}
+#node{
+  margin: 2%;
+}
+.node{
+  width: 70%;
+  background-color: rgb(55, 196, 196);
+  border-radius: 10px;
+
+}
+#mongodb{
+  margin: 2%;
+}
+.mongodb{
+  width: 70%;
+  background-color: rgb(55, 196, 196);
+  border-radius: 10px;
+  
+
+}
+#sql{
+  margin: 2%
+}
+.sql{
+  width: 60%;
+  background-color: rgb(55, 196, 196);
+  border-radius: 10px;
+
+}
+#aws{
+  margin: 2%;
+}
+.aws{
+  width: 40%;
+  background-color: rgb(55, 196, 196);
+  border-radius: 10px;
+
+}
+#project{
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+ margin: 5% 0 5% 0;
+ 
+ 
+
+}
+#one{
+  
+  width: 33%;
+  height: 100%;
+  margin: 4%;
+  
+
+}
+#center{
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: powderblue;
+  width: 80%;
+  height: 100%;
+  margin: 0 20% 0 10%;
+  padding: 3%;
+  display: flex;
+}
+#imgs{
+  width: 70%;
+  border: 2px solid black;
+}
+#pa{
+  background-color: cornsilk;
+  width: 70%;
+  margin-left: 15%;
+  border: 2px solid black;
+}
+#two{
+  
+  width: 33%;
+  height: 100%;
+  margin: 4%;
+  
+
+}
+#pic2{
+  width: 70%;
+  border: 2px solid black;
+  
+}
+#centre{
+text-align: center;
+}
+#hd2{
+  background-color:cornsilk ;
+  border:2px solid black;
+  width: 70%;
+  margin-left: 15%;
+}
+#three{
+  
+  width: 33%;
+  height: 100%;
+  margin: 4%;
+
+}
+#pic3{
+  width: 70%;
+  border: 2px solid black;
+}
+#hd3{
+  background-color:cornsilk ;
+  border:2px solid black;
+  width: 70%;
+  margin-left: 15%;
+}
+#hed{
+  text-align: center;
+  background-color: rgb(233, 213, 187);
+  width: 80%;
+  margin: 0 0 8% 10%;
+  
+}
+#link{
+  display: flex;
+}
+#left{
+  margin-left: 4%;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
