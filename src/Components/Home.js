@@ -53,8 +53,8 @@ class Home extends Component {
               duration={100}
             >Contact</Link>
 
-<a href="https://onedrive.live.com/edit.aspx?resid=3CC550C82E058F08!121&ithint=file%2cdocx"
-              download="https://onedrive.live.com/edit.aspx?resid=3CC550C82E058F08!121&ithint=file%2cdocx" target="_blank">
+<a href="https://docs.google.com/document/d/1gWuOi1F3q193Ucp5JdZgfqtFk1-6AwOw/edit"
+              download="https://docs.google.com/document/d/1gWuOi1F3q193Ucp5JdZgfqtFk1-6AwOw/edit" target="_blank">
               <button type="Submit" id='cvbtn'>Resume</button>
             </a>
 
