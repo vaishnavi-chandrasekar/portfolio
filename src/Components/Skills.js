@@ -10,7 +10,7 @@ class Skills extends Component {
             <h1>SKILLS: </h1>
             <div id='part1'>
               <h5 id='H3'>Html</h5>
-              <div class="contain">
+              <div className="contain">
                 <div id="html">90%</div>
               </div>
 

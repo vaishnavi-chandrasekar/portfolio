@@ -7,12 +7,14 @@ class Home extends Component {
   render() {
     return (
       <>
-        <div id='smdiv'>
+
+
+        <div className='img'>
 
           <div className='list'>
             <Link id='li'
               activeClass="active"
-              to="smdiv"
+              to="img"
               spy={true}
               smooth={true}
               offset={-70}
@@ -51,19 +53,21 @@ class Home extends Component {
               duration={100}
             >Contact</Link>
 
-
-            <a href="https://drive.google.com/file/d/1zUZ9sCPoLXNLeGJQoEZipqoXiKqneRV6/view?usp=drivesdk"
+<a href="https://drive.google.com/file/d/1zUZ9sCPoLXNLeGJQoEZipqoXiKqneRV6/view?usp=drivesdk"
               download="https://drive.google.com/file/d/1zUZ9sCPoLXNLeGJQoEZipqoXiKqneRV6/view?usp=drivesdk">
               <button type="Submit" id='cvbtn'>Resume</button>
             </a>
+
+
+
+
           </div>
 
-        </div>
+      
 
 
-        <div className='img'>
-
-          <h1 id='typewriter'> HEY !! <br />I am Vaishnavi Chandrasekar , I'm a<TypeWriterEffect
+          <div className='intro'>         
+           <h1 id='typewriter'> HEY !! <br />I am Vaishnavi Chandrasekar , I'm a<TypeWriterEffect
             textStyle={{
               fontFamily: 'Red Hat Display',
               color: 'AliceBlue	',
@@ -73,7 +77,7 @@ class Home extends Component {
             startDelay={2000}
             cursorColor="#3F3D56"
             multiText={[
-              'Mern Stack Developer.',
+              'MERN Stack Developer.',
               'Designer.',
               'writer.'
             ]}
@@ -82,7 +86,13 @@ class Home extends Component {
           />
 
 
+
           </h1>
+
+
+          </div>
+
+
 
         </div>
 

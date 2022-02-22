@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import image from '../images/scs.jpg'
-import pic from '../images/chess.jpg'
+import pic from '../images/netflixnew.jpg'
+import pics from '../images/ip.jpg';
 
 
 class Projects extends Component {
@@ -14,19 +15,22 @@ class Projects extends Component {
           <div id='center'>
 
             <div id='one'>
-              <a href='https://brave-morse-2e7417.netlify.app/'>
+              <a href='https://brave-morse-2e7417.netlify.app/' target='_blank'>
                 <img src={image} id='imgs' alt=''></img>
                 <h4 id='pa'>Todo list</h4>
               </a>
             </div>
             <div id='two'>
               <img src={pic} id="pic2" alt=''></img>
-              <h4 id='hd2'> Project 2</h4>
+              <h4 id='hd2'> Netflix clone</h4>
             </div>
             <div id='three'>
-              <img src={pic} id="pic3" alt=''></img>
-              <h4 id='hd3'> Project 3</h4>
+              <a href='https://elated-joliot-32a77f.netlify.app' target='_blank'>
+              <img src={pics} id="pic3" alt=''></img>
+              <h4 id='hd3'>IP Tracker</h4>
+              </a>
             </div>
+            
 
 
           </div>
