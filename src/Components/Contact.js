@@ -17,7 +17,7 @@ class Contact extends Component {
               <h5 className='mydetails'> <i class="fas fa-phone-alt"></i> 9962075252</h5>
               <h5 className='mydetails'><i class="fas fa-envelope"></i> vaishnavichandrasekar123@gmail.com</h5><br />
                 <div id='link'>
-             <a href='https://github.com/vaishnavi-chandrasekar'target="_blank"> <h2><i class="fab fa-github"></i></h2> </a>                   <a href='https://www.linkedin.com/in/vaishnavi-chandrasekar-0ba0451b0/'target="_blank" id='left'> <h2><i class="fab fa-linkedin-in"></i></h2> </a>              
+             <a href='https://github.com/vaishnavi-chandrasekar'target="_blank"> <h2><i class="fab fa-github"></i></h2> </a>                     
         </div>
 
 

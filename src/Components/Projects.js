@@ -21,8 +21,10 @@ class Projects extends Component {
               </a>
             </div>
             <div id='two'>
+              <a href='https://netflix-clone-f817a.web.app/' target="_blank">
               <img src={pic} id="pic2" alt=''></img>
               <h4 id='hd2'> Netflix clone</h4>
+              </a>
             </div>
             <div id='three'>
               <a href='https://elated-joliot-32a77f.netlify.app' target='_blank'>

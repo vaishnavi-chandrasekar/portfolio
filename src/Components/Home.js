@@ -53,8 +53,8 @@ class Home extends Component {
               duration={100}
             >Contact</Link>
 
-<a href="https://drive.google.com/file/d/1zUZ9sCPoLXNLeGJQoEZipqoXiKqneRV6/view?usp=drivesdk"
-              download="https://drive.google.com/file/d/1zUZ9sCPoLXNLeGJQoEZipqoXiKqneRV6/view?usp=drivesdk">
+<a href="https://onedrive.live.com/edit.aspx?resid=3CC550C82E058F08!121&ithint=file%2cdocx"
+              download="https://onedrive.live.com/edit.aspx?resid=3CC550C82E058F08!121&ithint=file%2cdocx" target="_blank">
               <button type="Submit" id='cvbtn'>Resume</button>
             </a>
 
@@ -67,7 +67,7 @@ class Home extends Component {
 
 
           <div className='intro'>         
-           <h1 id='typewriter'> HEY !! <br />I am Vaishnavi Chandrasekar , I'm a<TypeWriterEffect
+           <h1 id='typewriter'> HEY !! <br />I am Vaishnavi Chandrasekar, I'm a<TypeWriterEffect
             textStyle={{
               fontFamily: 'Red Hat Display',
               color: 'AliceBlue	',
