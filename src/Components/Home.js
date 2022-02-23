@@ -54,7 +54,7 @@ class Home extends Component {
             >Contact</Link>
 
 <a href="https://docs.google.com/document/d/1_z0XapHQpyKKSncrkxaa6f-RF2uNBucc/edit?usp=drivesdk&ouid=104597042631528438052&rtpof=true&sd=true"
-              download="https://docs.google.com/document/d/1_z0XapHQpyKKSncrkxaa6f-RF2uNBucc/edit?usp=drivesdk&ouid=104597042631528438052&rtpof=true&sd=true" target="_blank">
+             target="_blank">
               <button type="Submit" id='cvbtn'>Resume</button>
             </a>
 

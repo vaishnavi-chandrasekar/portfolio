@@ -11,16 +11,16 @@ class Skills extends Component {
             <div id='part1'>
               <h5 id='H3'>Html</h5>
               <div className="contain">
-                <div id="html">90%</div>
+                <div id="html">70%</div>
               </div>
 
               <h5 id='css'>CSS</h5>
               <div class="contain">
-                <div class="css">90%</div>
+                <div class="css">70%</div>
               </div>
               <h5 id='js'>Javascript</h5>
               <div class="contain">
-                <div class="js">80%</div>
+                <div class="js">70%</div>
               </div>
               <h5 id='react'>React</h5>
               <div class="contain">
@@ -28,12 +28,12 @@ class Skills extends Component {
               </div>
               <h5 id='node'>Nodejs</h5>
               <div class="contain">
-                <div class="node">70%</div>
+                <div class="node">60%</div>
               </div>
 
               <h5 id='mongodb'>Mongo DB</h5>
               <div class="contain">
-                <div class="mongodb">70%</div>
+                <div class="mongodb">60%</div>
               </div>
             </div>
             <div id='part2'>
