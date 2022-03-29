@@ -8,10 +8,10 @@ class Contact extends Component {
         <div id='full'>
           <div id='card'>
             <center>
-              <h2>GET IN TOUCH</h2>
+              <u><h2>GET IN TOUCH</h2></u>
             </center>
             <div id='h4'>
-              <h4>Address:</h4>
+              <h3>Address:</h3>
               <p>No: 89/2, Magalchi Apartments ,<br /> TNHB Flats , <br />Mogappair East ,<br /> Chennai-37</p><br />
               <h5 className='mydetails'>Name : Vaishnavi Chandrasekar</h5>
               <h5 className='mydetails'> <i class="fas fa-phone-alt"></i> 9962075252</h5>

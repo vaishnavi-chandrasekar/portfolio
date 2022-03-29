@@ -19,7 +19,7 @@ class Home extends Component {
               smooth={true}
               offset={-70}
               duration={100}
-            >Home</Link>
+            >HOME</Link>
             <Link id='about'
               activeClass="active"
               to="big"
@@ -27,15 +27,15 @@ class Home extends Component {
               smooth={true}
               offset={-70}
               duration={100}
-            >About</Link>
+            >ABOUT</Link>
             <Link id='skills'
               activeClass="active"
-              to="skls"
+              to="part"
               spy={true}
               smooth={true}
               offset={-70}
               duration={300}
-            >Skills</Link>
+            >SKILLS</Link>
             <Link id='projects'
               activeClass="active"
               to="project"
@@ -43,7 +43,7 @@ class Home extends Component {
               smooth={true}
               offset={-110}
               duration={100}
-            >Projects</Link>
+            >PROJECTS</Link>
             <Link id='contact'
               activeClass="active"
               to="full"
@@ -51,11 +51,11 @@ class Home extends Component {
               smooth={true}
               offset={-70}
               duration={100}
-            >Contact</Link>
+            >CONTACT</Link>
 
 <a href="https://docs.google.com/document/d/1_z0XapHQpyKKSncrkxaa6f-RF2uNBucc/edit?usp=drivesdk&ouid=104597042631528438052&rtpof=true&sd=true"
              target="_blank">
-              <button type="Submit" id='cvbtn'>Resume</button>
+              <h4 id='cvbtn'>RESUME</h4>
             </a>
 
 
@@ -67,15 +67,16 @@ class Home extends Component {
 
 
           <div className='intro'>         
-           <h1 id='typewriter'> HEY !! <br />I am Vaishnavi Chandrasekar, I'm a<TypeWriterEffect
+           <h1 id='typewriter'> HEY !! <br />I am Vaishnavi Chandrasekar, I'm a<TypeWriterEffect  className="writing_effect"
             textStyle={{
               fontFamily: 'Red Hat Display',
               color: 'AliceBlue	',
               fontWeight: 500,
               fontSize: '1em',
+              textAlign:"center"
             }}
             startDelay={2000}
-            cursorColor="#3F3D56"
+            cursorColor="transparent"
             multiText={[
               'MERN Stack Developer.',
               'Designer.',

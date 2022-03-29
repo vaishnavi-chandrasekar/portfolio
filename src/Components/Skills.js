@@ -5,8 +5,8 @@ class Skills extends Component {
   render() {
     return (
       <>
-        <div id='skls'>
-          <div id='part'>
+        {/* <div id='skls'> */}
+          {/* <div id='part'>
             <h1>SKILLS: </h1>
             <div id='part1'>
               <h5 id='H3'>Html</h5>
@@ -47,8 +47,55 @@ class Skills extends Component {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
+{/* <div class="container">
+  
+  
+  <div class="ui-widgets">
+      <div class="ui-values">85%</div>
+      <div class="ui-labels">Java</div>
+  </div>
+
+  <div class="ui-widgets">
+      <div class="ui-values">50%</div>
+      <div class="ui-labels">HTML</div>
+  </div>
+</div>
+
+ */}
+ <div className='part'>
+   <h1>SKILLS:</h1>
+   <div class="ui-widgets">
+      <div class="ui-values">70%</div>
+      <div class="ui-labels">HTML+CSS</div>
+  </div>
+
+  <div class="ui-widgets">
+      <div class="ui-values">70%</div>
+      <div class="ui-labels">React Js</div>
+  </div>
+  <div class="ui-widgets">
+      <div class="ui-values">60%</div>
+      <div class="ui-labels">Node Js</div>
+  </div>
+  <div class="ui-widgets">
+      <div class="ui-values">65%</div>
+      <div class="ui-labels">Mongo Db</div>
+  </div>
+  <div class="ui-widgets">
+      <div class="ui-values">55%</div>
+      <div class="ui-labels">MySQL</div>
+  </div>
+  <div class="ui-widgets">
+      <div class="ui-values">50%</div>
+      <div class="ui-labels">AWS</div>
+  </div>
+
+
+
+
+ </div>
 
       </>
     )
