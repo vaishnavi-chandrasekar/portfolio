@@ -422,6 +422,8 @@ h1 {
   margin: 0 20% 0 10%;
   padding: 3%;
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   font-family: Roboto;
 }
 @media (max-width:768px){
@@ -503,6 +505,7 @@ a {
 
 #pic2 {
   width: 70%;
+  height: 30%;
   border: 2px solid black;
 }
 @media (max-width:768px){
@@ -537,10 +540,24 @@ a {
 #three:hover {
   transform: scale(1.1);
 }
+#four {
+  width: 33%;
+  height: 100%;
+  margin: 4%;
+  transition: transform 450ms;
+}
+#four:hover {
+  transform: scale(1.1);
+}
+#pic4 {
+  width: 70%;
+  height: 10%;
+  border: 2px solid black;
+}
 
 #pic3 {
   width: 70%;
-  height: 10%;
+  height: 5%;
   border: 2px solid black;
 }
 @media(max-width:768px){
@@ -557,12 +574,33 @@ a {
   color: black;
 }
 @media (max-width: 768px) {
-  #hd3 {
+  #hd4 {
     font-size: x-large;
     margin: 0;
     width: 270%;
   }
 }
+@media(max-width:768px){
+  #pic4{
+    width: 270%;
+    margin: 0%;
+  }
+}
+#hd4 {
+  background-color: cornsilk;
+  border: 2px solid black;
+  width: 70%;
+  margin-left: 15%;
+  color: black;
+}
+@media (max-width: 768px) {
+  #hd4 {
+    font-size: x-large;
+    margin: 0;
+    width: 270%;
+  }
+}
+
 #hed {
   text-align: center;
   background-color: rgb(233, 213, 187);
