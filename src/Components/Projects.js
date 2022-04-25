@@ -26,13 +26,13 @@ class Projects extends Component {
               </a>
               <a href="https://github.com/vaishnavi-chandrasekar/whatsapp-clone" target="_blank"><button className='btn btn-primary sm'>Source Code</button></a>
             </div>
-            <div id='two'>
+            {/* <div id='two'>
               <a href='https://sparkly-tapioca-3832a0.netlify.app/' target="_blank">
               <img src={pic} id="pic2" alt=''></img>
               <h4 id='hd2'>User validation</h4>
               </a>
               <a href="https://github.com/vaishnavi-chandrasekar/user-validation" target="_blank"><button className='btn btn-primary sm'>Source Code</button></a>
-            </div>
+            </div> */}
             <div id='three'>
               <a href='https://elated-joliot-32a77f.netlify.app' target='_blank'>
               <img src={pics} id="pic3" alt=''></img>
