@@ -181,7 +181,7 @@
 } */
 #cvbtn {
   font-size: larger;
-  margin-top: 25%;
+  margin-top: 23%;
   color: white;
   font-family: sans-serif;
 
@@ -193,7 +193,7 @@
 @media (max-width: 768px) {
   #cvbtn {
     font-size: small;
-    margin-top: 18%;
+    margin-top: 13%
     /* margin-left: 100%; */
   }
 }
