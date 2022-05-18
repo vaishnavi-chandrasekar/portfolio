@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import image from '../images/calc.jpg'
 import pic from '../images/user validation.jpg'
 import pics from '../images/ip.jpg';
-import imagess from "../images/blog.jpg";
+import imagess from "../images/netflixnew.jpg";
 import imagesss from "../images/whatsappbackg.jpg";
 import mern from "../images/mern.jpg"
 
@@ -18,6 +18,14 @@ class Projects extends Component {
 
           <div id='center'>
 
+          <div id='four'>
+              <a href='https://unruffled-montalcini-33518f.netlify.app' target='_blank'>
+              <img src={imagess} id="pic4" alt=''></img>
+              <h4 id='hd4'>Netflix Clone</h4>
+              </a>
+              <a href="https://github.com/vaishnavi-chandrasekar/netflix-clone" target="_blank"><button className='btn btn-primary sm'>Source Code</button></a>
+            </div>
+
             <div id='one'>
               <a href='https://fluffy-rolypoly-eb4632.netlify.app/' target='_blank'>
                 <img src={imagesss} id='imgs' alt=''></img>
@@ -26,13 +34,13 @@ class Projects extends Component {
               </a>
               <a href="https://github.com/vaishnavi-chandrasekar/whatsapp-clone" target="_blank"><button className='btn btn-primary sm'>Source Code</button></a>
             </div>
-            {/* <div id='two'>
+            <div id='two'>
               <a href='https://sparkly-tapioca-3832a0.netlify.app/' target="_blank">
               <img src={pic} id="pic2" alt=''></img>
               <h4 id='hd2'>User validation</h4>
               </a>
               <a href="https://github.com/vaishnavi-chandrasekar/user-validation" target="_blank"><button className='btn btn-primary sm'>Source Code</button></a>
-            </div> */}
+            </div>
             <div id='three'>
               <a href='https://elated-joliot-32a77f.netlify.app' target='_blank'>
               <img src={pics} id="pic3" alt=''></img>
@@ -47,13 +55,7 @@ class Projects extends Component {
               </a>
               <a href="https://github.com/vaishnavi-chandrasekar/calculator-react-reducer" target="_blank"><button className='btn btn-primary sm'>Source Code</button></a>
             </div>
-            <div id='four'>
-              <a href='https://idyllic-choux-7646b0.netlify.app/' target='_blank'>
-              <img src={imagess} id="pic4" alt=''></img>
-              <h4 id='hd4'>Blog</h4>
-              </a>
-              <a href="https://github.com/vaishnavi-chandrasekar/blog" target="_blank"><button className='btn btn-primary sm'>Source Code</button></a>
-            </div>
+            
             <div id='four'>
               <a href='https://friendly-monstera-8834b2.netlify.app/' target='_blank'>
               <img src={mern} id="pic4" alt=''></img>
